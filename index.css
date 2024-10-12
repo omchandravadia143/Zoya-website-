@@ -1,0 +1,408 @@
+.header {
+    background-image: url(../../../Desktop/Main\ background\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 50px;
+    width: 100%;
+}
+
+.head1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.head1 h1 {
+    font-size: 65px;
+    margin-top: 300px;
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+
+.head1 h3 {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.head2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.flower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    margin-top: 100px;
+}
+
+.main1 h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.intro h4 {
+    color: blueviolet;
+
+}
+
+.intro2 p {
+    width: 400px;
+}
+
+#tag1 {
+
+    padding: 20px;
+    color: rgb(162, 9, 182);
+}
+
+.intro #tag1 {
+    font-size: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    gap: 60px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.intro2 p {
+    width: 400px;
+    color: #999999f1;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.body2 {
+    margin-top: 100px;
+}
+
+.only1 {
+    border-radius: 50%;
+}
+
+.round-img {
+    margin-top: 100px;
+
+}
+
+.img3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.only h1 {
+    font-size: 60px;
+}
+
+.only p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.introduction {
+    color: rgb(182, 138, 226);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.idea h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.type1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-workout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    gap: 60px;
+}
+
+.btn2 {
+    background-color: #a87bb3;
+    color: white;
+    border: none;
+
+}
+
+.para-1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #999999;
+    margin-top: 40px;
+}
+
+/* footer css */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #4D90B2;
+    color: #ffff;
+    padding: 30px;
+    margin-top: 100px;
+
+}
+
+.footer1 {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 50px;
+
+
+}
+
+.footer4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer3 p {
+    line-height: 20px;
+    color: #ffff;
+}
+
+.input-field {
+    color: white;
+    border: none;
+
+}
+
+
+
+.btn3 {
+    color: aquamarine;
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border: none;
+    border-radius: 12px;
+    margin: 30px;
+    font-weight: 900;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+#tag1 {
+    font-size: 24px;
+    color: rgba(222, 71, 222, 0.794);
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+}
+
+.logos1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-img {
+    height: 100%;
+    width: 100%;
+}
+
+.para5 {
+    color: white;
+    width: 100%;
+    margin-left: 350px;
+    width: 450px;
+
+
+}
+
+.para5 h1 {
+    font-size: 50px;
+    text-align: center;
+    width: 500px;
+}
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* Media query */
+@media screen and (max-width: 991px) {
+
+    .main {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width:433px) {
+
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .main2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 80px;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .main2 p {
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+
+    .main-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 12px;
+
+    }
+
+    .para5 p {
+
+        text-align: center;
+
+    }
+
+
+
+    .para5 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (min-width:578px) {
+    .para5 p {
+        width: 500px;
+        text-align: center;
+
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width:991px) {
+    .img3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+}
+
+
+@media screen and (max-width:991px) {
+
+    .main-workout {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width:991px) {
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width:433px) {
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

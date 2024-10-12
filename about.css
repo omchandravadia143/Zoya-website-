@@ -1,0 +1,368 @@
+.header {
+    background-image: url(../../../Desktop/Main\ background\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 50px;
+    width: 100%;
+}
+
+.head1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.head1 h1 {
+    font-size: 65px;
+    margin-top: 300px;
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+
+.head1 h3 {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.head2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.flower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    margin-top: 100px;
+}
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+.main2 h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.main3 p {
+    color: #999999;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    width: 700px;
+    padding: 30px;
+}
+
+.coaches {
+    background-image: url(../../../Desktop/main\ bg\ image\ about.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.coach1 h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.image1 {
+    border-radius: 50%;
+}
+
+.dana1 {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    width: 350px;
+    font-size: 15px;
+}
+
+#tag2 {
+    font-size: 25px;
+    color: rgba(222, 71, 222, 0.794);
+    border-radius: 52px;
+    background-color: white;
+    padding: 20px;
+
+}
+
+.logo {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.coach2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.topic1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 50%;
+}
+
+.content-para {
+    color: #999999;
+    font-size: 14px;
+
+}
+
+.content1 h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.image2 {
+    margin: 40px;
+}
+
+.map1 h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* footer css */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #4D90B2;
+    color: #ffff;
+    padding: 30px;
+    margin-top: 100px;
+
+}
+
+.footer1 {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 50px;
+
+
+}
+
+.footer4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer3 p {
+    line-height: 20px;
+    color: #ffff;
+}
+
+.input-field {
+    color: white;
+    border: none;
+
+}
+
+
+
+.btn3 {
+    color: aquamarine;
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border: none;
+    border-radius: 12px;
+    margin: 30px;
+    font-weight: 900;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+#tag1 {
+    font-size: 24px;
+    color: rgba(222, 71, 222, 0.794);
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+}
+
+.logos1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 991px) {
+
+    .main1 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width: 433px) {
+
+    .main1 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .coach2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .DanaStevens {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 433px) {
+    .dana1 {
+        width: 200px;
+    }
+
+    .dana1  {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+ .content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .exercise1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+ }
+
+}
+
+@media screen and (max-width: 433px){
+
+    .content2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+    
+     .exercise1{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+     }
+}
+
+@media screen and (max-width:991px) {
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width: 433px){
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 200px;
+        
+    }
+
+}
